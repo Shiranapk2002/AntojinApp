@@ -1,0 +1,114 @@
+/* Add your custom styles here */
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar-fixed-top{
+        position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Style the main content container */
+.container {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: ;
+
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Style the card */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+
+}
+.card-container {
+    height: 100%; /* Set a fixed height for the cards */
+}
+.card-img-top {
+    height: auto;
+    width: 100%;
+    object-fit: 500px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* Style the availability status */
+.card p {
+    font-weight: bold;
+    color: #28a745; /* Green for "Available" */
+}
+
+.card p.out-of-stock {
+    color: #dc3545; /* Red for "Out of Stock" */
+}
+
+/* Style the "View" button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+
+/* Style the card */
+
+
